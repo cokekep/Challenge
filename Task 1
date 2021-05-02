@@ -1,0 +1,17 @@
+Write a simple terraform module to distribute static content such as a javascript single-page application
+
+The module should:
+
+take the ARN of an ACM certificate as a parameter.
+
+create a S3 bucket
+
+route53 hostedzone
+
+cloudfront distribution serving content from the bucket
+
+DNS entry pointing to the distribution.
+
+ 
+
+Please document the functionality and how to run the application to the best of your ability in the README.md.
